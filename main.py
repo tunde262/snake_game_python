@@ -3,6 +3,7 @@ import math
 import random
 import time
 import sys
+import asyncio
 
 # CONSTANTS
 WIDTH = 640 
@@ -139,7 +140,7 @@ class Score:
         label = self.font.render('Score: ' + str(self.points), 1, BLACK)
         surface.blit(label, ( 5, 5 ))
 
-def main():
+async def main():
     pygame.init()
     screen = pygame.display.set_mode( (WIDTH, HEIGHT) )
     pygame.display.set_caption( "SNAKE" )
@@ -211,5 +212,13 @@ def main():
         pygame.time.delay(110)
         pygame.display.update()
 
+        # for Web hosting purposes
+        await asyncio.sleep(0)
 
-main()
+
+# for web hosting purposes
+asyncio.run(main())
+
+# uncomment this to run regular python version
+
+# main()
