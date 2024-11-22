@@ -3,7 +3,7 @@ import math
 import random
 import time
 import sys
-import asyncio
+import asyncio # -- for web hosting purposes --
 
 # CONSTANTS
 WIDTH = 640  # Screen width in pixels
