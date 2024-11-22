@@ -214,7 +214,7 @@ async def main(): # Remove 'async' function to run regualr python version
         # Pause for web hosting purposes
         await asyncio.sleep(0)
 
-# Run the game loop asynchronously
+# Run the game loop asynchronously - for web hosting purposes
 asyncio.run(main()) # Remove this to run regular python version
 
 # uncomment this to run regular python version
