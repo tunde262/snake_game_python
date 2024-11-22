@@ -36,6 +36,7 @@ A classic Snake game built using Python and Pygame. The objective is to control 
 ## Requirements
 - Python 3.9 or higher
 - Pygame library
+- (Optional) Pygbag for web hosting
 
 ---
 
