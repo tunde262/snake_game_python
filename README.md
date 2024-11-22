@@ -24,18 +24,18 @@ A classic Snake game built using Python and Pygame. The objective is to control 
 
 ---
 
-## Requirements
-- Python 3.9 or higher
-- Pygame library
-
----
-
 ## How to Play
 1. The game begins with the snake in a stationary state.
 2. Use the arrow keys to control the snake's movement.
 3. Eat the red apple to grow in size and increase your score.
 4. Avoid running into walls or your own body.
 5. Press `P` to pause the game at any time.
+
+---
+
+## Requirements
+- Python 3.9 or higher
+- Pygame library
 
 ---
 
