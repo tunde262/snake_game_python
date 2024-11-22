@@ -157,7 +157,7 @@ class Score:
         label = self.font.render(f'Score: {self.points}', 1, BLACK)
         surface.blit(label, (5, 5))
 
-async def main(): # Remove 'async' function to run regular python version
+async def main(): # Remove 'async' function to run regular python version - for web hosting purposes
     # Main game loop.
     pygame.init()  # Initialize Pygame
     screen = pygame.display.set_mode((WIDTH, HEIGHT))  # Create the game window
