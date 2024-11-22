@@ -44,8 +44,8 @@ A classic Snake game built using Python and Pygame. The objective is to control 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/snake-game.git
-    cd snake-game
+    git clone https://github.com/tunde262/snake_game_python.git
+    cd snake_game_python
     ```
 
 2. **Set up a virtual environment** (optional but recommended):
