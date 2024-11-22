@@ -1,1 +1,1 @@
-asyncio
+await asyncio.sleep(0)

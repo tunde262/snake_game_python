@@ -157,7 +157,7 @@ class Score:
         label = self.font.render(f'Score: {self.points}', 1, BLACK)
         surface.blit(label, (5, 5))
 
-async def main():
+async def main(): # Remove 'async' function to run regualr python version
     # Main game loop.
     pygame.init()  # Initialize Pygame
     screen = pygame.display.set_mode((WIDTH, HEIGHT))  # Create the game window
@@ -215,4 +215,8 @@ async def main():
         await asyncio.sleep(0)
 
 # Run the game loop asynchronously
-asyncio.run(main())
+asyncio.run(main()) # Remove this to run regular python version
+
+# uncomment this to run regular python version
+
+# main()
