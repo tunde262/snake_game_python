@@ -1,6 +1,6 @@
 # Snake Game 🐍
 
-A classic Snake game built using Python and Pygame. The objective is to control the snake, eat the apple, and grow in size while avoiding collisions with walls or the snake's own body.
+A classic Snake game built using **Python** and **Pygame**. The objective is to control the snake, eat the apple, and grow in size while avoiding collisions with walls or the snake's own body.
 
 ![thumbnail](https://github.com/tunde262/snake_game_python/blob/main/assets/thumbnail.png?raw=true)
 
