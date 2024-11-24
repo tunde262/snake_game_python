@@ -4,17 +4,6 @@ A classic Snake game built using **Python** and **Pygame**. The objective is to 
 
 ![thumbnail](https://github.com/tunde262/snake_game_python/blob/main/assets/thumbnail.png?raw=true)
 
-## Table of Contents
-- [Features](#features)
-- [Requirements](#requirements)
-- [How to Play](#how-to-play)
-- [Installation](#installation)
-- [Game Controls](#game-controls)
-- [Future Enhancements](#future-enhancements)
-- [License](#license)
-
----
-
 ## Features
 - **Checkerboard Background:** A classic green checkerboard-style grid.
 - **Dynamic Snake Movement:** Smooth transitions and growth with each apple consumed.
